@@ -3,7 +3,7 @@
 ## About
 This is an alarm clock written in Python3. The code uses [datetime](https://docs.python.org/3/library/datetime.html), [time](https://docs.python.org/3/library/time.html) and [subprocess](https://docs.python.org/3/library/subprocess.html) modules. The user inputs the duration for the alarm. The program then sleeps to optimize system's computing resources, giving user an occasional update on the time left. Longer the duration of alarm, longer the program sleeps and fewer the number of times it updates. As the duration draws to zero, the number of updates increase. Finally, the program opens alarm.mp3 file to alert the user. The motivation for the project is Al Sweigart's book titled ['Automate The Boring Stuff With Python'](https://automatetheboringstuff.com/2e/chapter17/).     
 
-_Author's Note_: I wrote this alarm clock to alert me of oversitting while working. I have since used it for a variety of purposes. Notably, I SSHed the script to a Raspberry Pi 4 connected to a BT speaker to wake me up when September ends. I am serious!.     
+_Author's Note_: I wrote this alarm clock to alert me of oversitting while working. I have since used it for a variety of purposes. Notably, I SSHed the script to a Raspberry Pi 4 connected to a BT speaker to wake me up.     
 
 ## Getting Started:
 
